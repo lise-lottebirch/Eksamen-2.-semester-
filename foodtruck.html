@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="script.js">
+    <title>Brødrenes Original</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Menubar -->
+        <nav class="navigation_container">
+            <!-- Mobilmenu -->
+            <label for="mobileicon" class="mobileiconlabel">&#9776;</label>
+            <input type="checkbox" id="mobileicon" class="mobileicon">
+        
+            <div class="menuitems_container">
+                <a href="udvalg.html" class="menuitem">Vores Udvalg</a>
+                <a href="bestil.html" class="menuitem">Bestil Online</a>
+                <a href="omos.html" class="menuitem">Hvem er vi?</a>
+                <a href="findos.html" class="menuitem">Find os</a>
+                <a href="foodtruck.html" class="menuitem">Foodtruck</a>      
+            </div>
+
+            <!-- Logoet -->
+            <a href="index.html" class="companylogo"><img src="img/logo.jpeg" alt="logo" class="logo"></a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3 class="foodtruck-overskrift">Lej vores foodtruck</h3>
+                <img class="foodtruck-foto" src="img/foodtruck.jpeg" alt="foodtruck">
+
+                <div class="cards-foodtruck">
+                    <div class="container-cards">
+
+                        <div class="card1">
+                            <div class="content">
+                                <P>Mangler du maden til dit næste event? 
+                                Udfyld formularen og få et uforpligtende tilbud på vores foodtruck.</p> 
+                                <h4>Hvad tilbyder vi?</h4>
+                                    <dl>
+                                        <dd>Leje af foodtruck</dd>
+                                        <dd>Bemanding af foodtruck ved lejning</dd>
+                                        <dd>God stemning og ingen sultne maver</dd>
+                                    </dl>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <section>
+                        <img class="burger-skiller" src="img/skiller.png" alt="burgerskiller">
+                    </section>
+
+                    <div class="container-cards">
+
+                        <div class="card1">
+                            <div class="content">
+                                <section>
+                                <div class="kontaktformular">
+                                    <h3 class="kontaktformular-overskrift">Kontakt os ved at udfylde formularen nedenfor</h3>
+                                    <form name="myForm">
+                                        <table class="form-style">
+                                           <tr>
+                                              <td>
+                                                 <label>
+                                                    Dit navn <span class="required">*</span>
+                                                 </label>
+                                              </td>
+                                              <td>
+                                                 <input type="text" name="name" class="long"/>
+                                                 <span class="error" id="errorname"></span>
+                                              </td>
+                                           </tr>
+                                           <tr>
+                                              <td>
+                                                 <label>
+                                                   Din email addresse <span class="required">*</span>
+                                                 </label>
+                                              </td>
+                                              <td>
+                                                 <input type="email" name="email" class="long"/>
+                                                 <span class="error" id="erroremail"></span>
+                                              </td>
+                                           </tr>
+                                           <tr>
+                                              <td>
+                                                 <label>
+                                                    Besked <span class="required">*</span>
+                                                 </label>
+                                              </td>
+                                              <td>
+                                                 <textarea name="message" class="long field-textarea"></textarea>
+                                                 <span class="error" id="errormsg"></span>
+                                              </td>
+                                           </tr>
+                                           <tr>
+                                              <td></td>
+                                              <td>
+                                                 <input type="submit" value="Send">      
+                                                 <input type="reset" value="Reset"> 
+                                              </td>
+                                           </tr>
+                                        </table>
+                                    </form>
+                                </div>
+                                </section>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+
+        </section>
+    
+        <section>
+            <img class="burger-skiller" src="img/skiller.png" alt="burgerskiller">
+        </section>
+
+        <section>
+            <div class="kontaktformular">
+                <h3 class="kontaktformular-overskrift">Kontakt os ved at udfylde formularen nedenfor</h3>
+                <form name="myForm">
+                    <table class="form-style">
+                       <tr>
+                          <td>
+                             <label>
+                                Dit navn <span class="required">*</span>
+                             </label>
+                          </td>
+                          <td>
+                             <input type="text" name="name" class="long"/>
+                             <span class="error" id="errorname"></span>
+                          </td>
+                       </tr>
+                       <tr>
+                          <td>
+                             <label>
+                               Din email addresse <span class="required">*</span>
+                             </label>
+                          </td>
+                          <td>
+                             <input type="email" name="email" class="long"/>
+                             <span class="error" id="erroremail"></span>
+                          </td>
+                       </tr>
+                       <tr>
+                          <td>
+                             <label>
+                                Besked <span class="required">*</span>
+                             </label>
+                          </td>
+                          <td>
+                             <textarea name="message" class="long field-textarea"></textarea>
+                             <span class="error" id="errormsg"></span>
+                          </td>
+                       </tr>
+                       <tr>
+                          <td></td>
+                          <td>
+                             <input type="submit" value="Send">      
+                             <input type="reset" value="Reset"> 
+                          </td>
+                       </tr>
+                    </table>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+    <!--Footer-->
+<!--Footer kontakt information-->
+<footer>
+    <form class="flex-container">
+        <div class="flex-item-left">
+            <p class="footer_overskrift">Kontakt Os</p>
+            <p>Adresse: Hveensgade 1, 8000 Aarhus C</p>
+            <p>Mandag - Søndag kl. 11:00 - 20:00</p>
+            <p>Telefon: +45 42 30 27 99</p>
+            <p>E-mail: broedrenes.kontakt@gmail.com</p>   
+        </div>
+    
+<!--Footer nyhedsbrev signup -->
+        <div class="flex-item-middle">
+            <p class="footer_overskrift">Tilmeld dig vores nyhedsbrev</p>
+            <input type="text" placeholder="Navn..." name="Navn" required> 
+            <input type="text" placeholder="Email..." name="email" required> 
+            <input type="submit" value="Tilmeld">
+        </div>
+
+<!--Footer sociale medier -->
+        <div class="flex-item-right">
+            <p class="footer_overskrift">Følg os</p>
+                <a href="https://www.facebook.com/Broedrenes" target="_blank"><img src="img/facebookhvid.png" alt="facebook" class="sociale" id="facebook"></a>
+                <a href="https://www.instagram.com/broedrenes/" target="_blank"><img src="img/instagramhvid.png" alt="instagram" class="sociale" id="instagram"></a>
+                <a href="https://www.youtube.com/channel/UCsATW5eN4Sl9eVJ-bEeTNWA" target="_blank"><img src="img/youtubehvid.png" alt="youtube" class="sociale" id="youtube"></a>
+            </a>
+        </div>
+    </form>
+</footer>
+
+
+</html>
